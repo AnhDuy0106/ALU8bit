@@ -1,10 +1,11 @@
 `timescale 1ns / 1ps
-`include "alu_8bit"
-`include "adder_8bit"
-`include "multi_8bit"
-`include "and_8bit"
-`include "or_8bit"
-`include "mux_4bit"
+`include "fulladder_1bit.v"
+`include "alu_8bit.v"
+`include "adder_8bit.v"
+`include "multi_8bit.v"
+`include "and_8bit.v"
+`include "or_8bit.v"
+`include "mux_4bit.v"
 module alu_8bit_test;
 
     // Inputs
